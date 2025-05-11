@@ -7,7 +7,7 @@ const About = () => {
             {/* Header with gradient background */}
             <header className="bg-gradient-to-r from-yellow-300 via-orange-300 to-red-300 shadow-md py-4 mb-6 rounded-lg transform hover:scale-105 transition-transform duration-300">
                 <h1 className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
-                    About WorkWave
+                    About FixMate
                 </h1>
             </header>
 
@@ -18,8 +18,7 @@ const About = () => {
                         Our Mission
                     </h2>
                     <p className="text-gray-600 mb-4 transition-transform transform hover:scale-105 duration-300">
-                        At WorkWave, we are dedicated to connecting clients with top-tier freelancers to bring their projects to life. Our platform is built on the principles of efficiency, trust, and quality, ensuring that every interaction on WorkWave is a step towards success.
-                    </p>
+                        At FixMate, we are dedicated to streamlining the way services are delivered and received by connecting individuals with trusted professionals across a range of needs. Our platform is built on the values of convenience, reliability, and excellence, ensuring that every interaction on FixMate moves you one step closer to getting the job done right.                    </p>
                     <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-gold mb-4 transform hover:scale-105 transition-transform duration-300">
                         <h3 className="text-xl font-semibold text-gray-800 mb-2 transition-transform transform hover:scale-105 duration-300">
                             Key Principles
@@ -45,9 +44,7 @@ const About = () => {
                 <section className="bg-gradient-to-r from-orange-200 via-yellow-200 to-red-200 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Vision</h2>
                     <p className="text-gray-600 mb-4">
-                        Whether you’re looking to hire skilled professionals for your projects or you're a freelancer seeking new opportunities, WorkWave is here to facilitate seamless collaboration. Our mission is to empower both clients and freelancers by providing a platform that meets their needs and exceeds their expectations.
-                    </p>
-                    <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-gold">
+                        Bridging the gap between talent and opportunity, FixMate strives to redefine how people collaborate—creating a dynamic ecosystem where quality, trust, and innovation drive every successful partnership.                    <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-gold">
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">Why Choose Us?</h3>
                         <table className="min-w-full text-left text-gray-600">
                             <thead className="bg-gray-200">
@@ -87,7 +84,7 @@ const About = () => {
             {/* Footer with blended background */}
             <footer className="bg-gradient-to-r from-red-300 via-orange-300 to-yellow-300 text-white py-4 mt-6 rounded-lg">
                 <div className="container mx-auto text-center">
-                    <p>Thank you for being part of our journey. At WorkWave, we believe in the power of connections and are committed to fostering a community where both clients and freelancers can thrive.</p>
+                    <p>Thank you for growing with us. At FixMate, we believe in building meaningful connections and remain dedicated to creating a space where professionals and clients succeed together.</p>
                 </div>
             </footer>
         </div>
