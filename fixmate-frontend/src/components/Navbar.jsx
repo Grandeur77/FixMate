@@ -58,7 +58,7 @@ const Navbar = () => {
   return (
     <nav
       className={`relative py-6 ${
-        isMarketPlace ? 'bg-transparent' : 'bg-gradient-to-r from-yellow-400 to-yellow-600'
+        isMarketPlace ? 'bg-transparent' : 'bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900'
       }`}
       style={{ height: '180px' }} // Set a fixed height that matches the navbar's padding and line height
     >

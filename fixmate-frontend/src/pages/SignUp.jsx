@@ -120,9 +120,9 @@ const SignUp = () => {
     
 
     return (
-        <div className="flex justify-center items-center py-12 bg-gradient-to-b from-white to-gray-100">
+        <div className="flex justify-center items-center py-12 bg-gradient-to-b from-white to-blue-100">
             <div className="w-full max-w-3xl bg-white rounded-lg shadow-lg p-8" style={{ paddingTop: '40px' }}>
-                <h2 className="text-4xl font-bold text-gray-800 mb-6 text-center">Create Your Account</h2>
+                <h2 className="text-4xl font-bold text-blue-900 mb-6 text-center">Create Your Account</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="mb-4 relative">
@@ -223,7 +223,7 @@ const SignUp = () => {
                     <div className="flex items-center justify-center mt-6">
                         <button
                             type="submit"
-                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                         >
                             Sign Up
                         </button>
