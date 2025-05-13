@@ -22,20 +22,20 @@ const Footer = () => {
                         padding: '20px 0' // Add padding to adjust vertical spacing
                     }}
                 >
-                    <h1 className="text-2xl font-bold text-black mb-2">
-                        Stay Connected with WorkWave
+                    <h1 className="text-2xl font-bold text-blue-900 mb-2">
+                        Stay Connected with FixMate
                     </h1>
-                    <p className="text-lg text-slate-600 mb-4">
+                    <p className="text-lg font-bold text-black mb-4">
                         Join our community of creatives and innovators. Follow us on social media and stay updated with the latest opportunities, tips, and success stories.
                     </p>
                     <div className="flex justify-center gap-4 mb-4">
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900">
                             <FaFacebookF className="text-2xl" />
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900">
                             <FaInstagram className="text-2xl" />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500">
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900">
                             <FaTwitter className="text-2xl" />
                         </a>
                     </div>
