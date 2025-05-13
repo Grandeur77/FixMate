@@ -133,7 +133,7 @@ const CardDeck = ({ searchQuery, category, serviceOptions, sellerDetails, budget
         <button
           onClick={() => handlePageChange(currentPage - 1)}
           disabled={currentPage === 1}
-          className={`py-2 px-4 rounded-lg ${currentPage === 1 ? 'bg-gray-300' : 'bg-orange-500 text-white hover:bg-orange-600'}`}
+          className={`py-2 px-4 rounded-lg ${currentPage === 1 ? 'bg-gray-300' : 'bg-blue-500 text-white hover:bg-blue-600'}`}
         >
           Previous
         </button>
@@ -141,7 +141,7 @@ const CardDeck = ({ searchQuery, category, serviceOptions, sellerDetails, budget
         <button
           onClick={() => handlePageChange(currentPage + 1)}
           disabled={currentPage === totalPages}
-          className={`py-2 px-4 rounded-lg ${currentPage === totalPages ? 'bg-gray-300' : 'bg-orange-500 text-white hover:bg-orange-600'}`}
+          className={`py-2 px-4 rounded-lg ${currentPage === totalPages ? 'bg-gray-300' : 'bg-blue-500 text-white hover:bg-blue-600'}`}
         >
           Next
         </button>

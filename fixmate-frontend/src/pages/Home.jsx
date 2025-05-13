@@ -95,7 +95,7 @@ const HomePage = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-7xl mx-auto">
           <div className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
             <p className="text-lg font-semibold">Chethana Rowell</p>
-            <p className="text-sm mt-2">"FlexMate helped me find the right freelancer for my project with ease!"</p>
+            <p className="text-sm mt-2">"FixMate helped me find the right freelancer for my project with ease!"</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
             <p className="text-lg font-semibold">Mileesha Fernando</p>
@@ -107,7 +107,7 @@ const HomePage = () => {
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
             <p className="text-lg font-semibold">Jane Ferdz</p>
-            <p className="text-sm mt-2">"FlexMate is my go-to for hiring freelancers!"</p>
+            <p className="text-sm mt-2">"FixMate is my go-to for hiring freelancers!"</p>
           </div>
         </div>
       </section>

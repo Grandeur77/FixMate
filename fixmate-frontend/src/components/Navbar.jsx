@@ -74,7 +74,7 @@ const Navbar = () => {
           className={`text-4xl font-bold cursor-pointer ${isMarketPlace ? 'text-white' : 'text-white'}`}
           onClick={handleTitleClick} // Add click handler here
         >
-          WorkWave
+          FixMate
         </div>
 
         <div className="flex-1 flex justify-center space-x-8">
@@ -221,12 +221,13 @@ const Navbar = () => {
               className="w-full py-3 px-6 pr-14 rounded-full border-none shadow-sm placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               style={{ backgroundColor: '#FFF' }}
             />
-            <button
-              className="absolute inset-y-0 right-0 flex items-center pr-4"
-              style={{ color: '#F27A1A' }}
-            >
-              <img src={searchIcon} alt="Search" className="h-5 w-5" />
-            </button>
+           <button
+             className="absolute inset-y-0 right-0 flex items-center pr-4"
+             style={{ color: '#1A73E8' }}
+           >
+             <img src={searchIcon} alt="Search" className="h-5 w-5" />
+           </button>
+
           </div>
         </div>
       )}
