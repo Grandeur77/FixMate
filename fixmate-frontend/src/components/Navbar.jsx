@@ -66,7 +66,7 @@ const Navbar = () => {
         <div className="absolute inset-0 h-full">
           {/* Ensure it takes the full height of the nav */}
           <img src={marketPlaceImage} alt="Market Place" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-orange-900 opacity-70"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900"></div>
         </div>
       )}
       <div className="relative container mx-auto flex justify-between items-center px-6 z-10">

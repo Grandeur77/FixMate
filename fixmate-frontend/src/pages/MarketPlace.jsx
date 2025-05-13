@@ -44,7 +44,7 @@ const MarketPlace = ({ searchQuery }) => {
                         <select
                             value={serviceOptions}
                             onChange={(e) => setServiceOptions(e.target.value)}
-                            className="py-2 px-4 border rounded-lg shadow-sm focus:ring-2 focus:ring-orange-500 focus:outline-none text-sm font-bold text-gray-700"
+                            className="py-2 px-4 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm font-bold text-gray-700"
                         >
                             <option value="">Service options</option>
                             <option value="option1">Option 1</option>
@@ -54,7 +54,7 @@ const MarketPlace = ({ searchQuery }) => {
                         <select
                             value={sellerDetails}
                             onChange={(e) => setSellerDetails(e.target.value)}
-                            className="py-2 px-4 border rounded-lg shadow-sm focus:ring-2 focus:ring-orange-500 focus:outline-none text-sm font-bold text-gray-700"
+                            className="py-2 px-4 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm font-bold text-gray-700"
                         >
                             <option value="">Seller details</option>
                             <option value="seller1">Seller 1</option>
@@ -64,7 +64,7 @@ const MarketPlace = ({ searchQuery }) => {
                         <select
                             value={budget}
                             onChange={(e) => setBudget(e.target.value)}
-                            className="py-2 px-4 border rounded-lg shadow-sm focus:ring-2 focus:ring-orange-500 focus:outline-none text-sm font-bold text-gray-700"
+                            className="py-2 px-4 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm font-bold text-gray-700"
                         >
                             <option value="">Budget</option>
                             <option value="budget1">$5 - $50</option>
@@ -74,7 +74,7 @@ const MarketPlace = ({ searchQuery }) => {
                         <select
                             value={deliveryTime}
                             onChange={(e) => setDeliveryTime(e.target.value)}
-                            className="py-2 px-4 border rounded-lg shadow-sm focus:ring-2 focus:ring-orange-500 focus:outline-none text-sm font-bold text-gray-700"
+                            className="py-2 px-4 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm font-bold text-gray-700"
                         >
                             <option value="">Delivery time</option>
                             <option value="1_day">1 Day</option>

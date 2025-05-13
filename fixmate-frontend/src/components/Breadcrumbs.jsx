@@ -12,7 +12,7 @@ const Breadcrumbs = () => {
 
         return (
           <span key={to}>
-            <Link to={to} className="hover:text-orange-500 capitalize">
+            <Link to={to} className="hover:text-blue-900 capitalize">
               {value}
             </Link>
             {index < pathnames.length - 1 && ' / '}

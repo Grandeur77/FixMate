@@ -6,15 +6,19 @@ const Categories = ({ onCategoryChange }) => {
 
   const categories = [
     "All Categories", // Adding an option to reset the category
-    "Programming & Tech",
-    "Graphics & Design",
-    "Digital Marketing",
-    "Writing & Translation",
-    "Video & Animation",
-    "AI Services",
-    "Music & Audio",
-    "Business",
-    "Consulting",
+    "Plumbing Services",
+    "Electrical Work",
+    "Carpentry",
+    "Masonry",
+    "Painting & Wall Repair",
+    "Handyman Services",
+    "Cleaning",
+    "Gardening & Landscaping",
+    "Interior Design",
+    "Renovation & Remodeling",
+    "Tiling & Flooring",
+    "Furniture Assembly",
+    "Moving & Delivery",
   ];
 
   const handleCategoryClick = (category) => {
@@ -37,7 +41,7 @@ const Categories = ({ onCategoryChange }) => {
           <li
             key={category}
             className={`cursor-pointer flex items-center ${
-              selectedCategory === category ? "text-orange-500 font-semibold" : ""
+              selectedCategory === category ? "text-blue-500 font-semibold" : ""
             }`}
             onClick={() => handleCategoryClick(category)}
           >
