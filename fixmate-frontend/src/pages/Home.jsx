@@ -1,8 +1,8 @@
 import React from 'react';
 import briefcaseImg from '../assets/briefcase.png';
-import DesignImg from '../assets/Design.jpg';
-import DevelopmentImg from '../assets/Development.jpg';
-import MarketingImg from '../assets/Marketing.jpg';
+import DesignImg from '../assets/Design.jpeg';
+import DevelopmentImg from '../assets/Development.jpeg';
+import MarketingImg from '../assets/Marketing.jpeg';
 
 const HomePage = () => {
   return (
@@ -35,22 +35,22 @@ const HomePage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-blue-200 p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
             <img src={DesignImg} alt="Design" className="w-full h-40 object-cover rounded-md" />
-            <p className="text-lg mt-4">Design</p>
+            <p className="text-lg mt-4">Home Repair & Maintenance</p>
           </div>
           <div className="bg-blue-200 p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
             <img src={DevelopmentImg} alt="Development" className="w-full h-40 object-cover rounded-md" />
-            <p className="text-lg mt-4">Development</p>
+            <p className="text-lg mt-4">Cleaning & Gardening</p>
           </div>
           <div className="bg-blue-200 p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
             <img src={MarketingImg} alt="Marketing" className="w-full h-40 object-cover rounded-md" />
-            <p className="text-lg mt-4">Marketing</p>
+            <p className="text-lg mt-4">Home Improvement</p>
           </div>
         </div>
       </section>
 
       {/* Why Choose Us Section */}
       <section className="bg-gradient-to-b from-blue-200 to-white py-16 px-4 text-center">
-        <h2 className="text-4xl font-bold text-blue-900 mb-6">Why Choose WorkWave?</h2>
+        <h2 className="text-4xl font-bold text-blue-900 mb-6">Why Choose FixMate?</h2>
         <p className="max-w-2xl mx-auto text-lg mb-8">
           At FixMate, we connect clients with top talent to bring projects to life. Efficiency, trust, and quality are at the heart of everything we do.
         </p>
