@@ -123,15 +123,19 @@ const FormUpdate = ({ service }) => {
                   onChange={handleChange}
                 >
                   <option value="">Choose a Category</option>
-                  <option value="Programming & Tech">Programming & Tech</option>
-                  <option value="Graphics & Design">Graphics & Design</option>
-                  <option value="Digital Marketing">Digital Marketing</option>
-                  <option value="Writing & Translation">Writing & Translation</option>
-                  <option value="Video & Animation">Video & Animation</option>
-                  <option value="AI Services">AI Services</option>
-                  <option value="Music & Audio">Music & Audio</option>
-                  <option value="Business">Business</option>
-                  <option value="Consulting">Consulting</option>
+                  <option value="Plumbing Services"> Plumbing Services</option>
+                  <option value="Electrical Work">Electrical Work</option>
+                  <option value="Carpentry">Carpentry</option>
+                  <option value="Masonry">Masonry</option>
+                  <option value="Painting & Wall Repair">Painting & Wall Repair</option>
+                  <option value="Cleaning">Cleaning</option>
+                  <option value="Gardening & Landscaping">Gardening & Landscaping</option>
+                  <option value="Interior Design">Interior Design</option>
+                  <option value="Renovation & Remodeling">Renovation & Remodeling</option>
+                  <option value="Tiling & Flooring">Renovation & Remodeling</option>
+                  <option value="Furniture Assembly">Renovation & Remodeling</option>
+                  <option value="Moving & Delivery">Renovation & Remodeling</option>
+
                 </select>
               </div>
             </div>

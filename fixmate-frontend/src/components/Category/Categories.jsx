@@ -11,7 +11,6 @@ const Categories = ({ onCategoryChange }) => {
     "Carpentry",
     "Masonry",
     "Painting & Wall Repair",
-    "Handyman Services",
     "Cleaning",
     "Gardening & Landscaping",
     "Interior Design",
